@@ -2,6 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://okzaq.github.io/simple_timecard_app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
