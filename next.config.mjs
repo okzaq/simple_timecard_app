@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
+const repoName = process.env.GITHUB_ACTIONS && '/simple_timecard_app';
 const nextConfig = {
-    basePath: '/simple_timecard_app',
+    basePath: repoName,
     output: 'export',
     reactStrictMode: true,
 };
